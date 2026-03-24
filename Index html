@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Typography Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="container mt-4">
+
+  <h1 class="text-center mb-4">Bootstrap 4 Typography Project</h1>
+
+  <!-- Headings -->
+  <h2>1. Bootstrap Headings</h2>
+  <h1>h1 Bootstrap heading</h1>
+  <h2>h2 Bootstrap heading</h2>
+  <h3>h3 Bootstrap heading</h3>
+  <h4>h4 Bootstrap heading</h4>
+  <h5>h5 Bootstrap heading</h5>
+  <h6>h6 Bootstrap heading</h6>
+
+  <hr>
+
+  <!-- Display Headings -->
+  <h2>2. Display Headings</h2>
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+
+  <hr>
+
+  <!-- Small Text -->
+  <h2>3. Secondary Small Text</h2>
+  <h3>Heading <small class="text-muted">secondary text</small></h3>
+
+  <hr>
+
+  <!-- Mark -->
+  <h2>4. Highlight Text</h2>
+  <p>Use <mark>mark element</mark> to highlight text.</p>
+
+  <hr>
+
+  <!-- Abbreviation -->
+  <h2>5. Abbreviation</h2>
+  <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+  <hr>
+
+  <!-- Blockquote -->
+  <h2>6. Blockquote</h2>
+  <blockquote class="blockquote">
+    <p>Learning never exhausts the mind.</p>
+    <footer class="blockquote-footer">Leonardo da Vinci</footer>
+  </blockquote>
+
+  <hr>
+
+  <!-- Description List -->
+  <h2>7. Description List</h2>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+  </dl>
+
+  <hr>
+
+  <!-- Code -->
+  <h2>8. Code Element</h2>
+  <p>HTML elements like <code>div</code>, <code>span</code>, and <code>section</code>.</p>
+
+  <hr>
+
+  <!-- Keyboard Input -->
+  <h2>9. Keyboard Input</h2>
+  <p>Press <kbd>Ctrl + P</kbd> to print.</p>
+
+  <hr>
+
+  <!-- Preformatted -->
+  <h2>10. Preformatted Text</h2>
+  <pre>
+Text in a pre element
+preserves spaces
+and line breaks.
+  </pre>
+
+  <hr>
+
+  <!-- Font Weight -->
+  <h2>11. Font Weight</h2>
+  <p class="font-weight-bold">Bold Text</p>
+  <p class="font-italic">Italic Text</p>
+  <p class="font-weight-light">Light Text</p>
+  <p class="font-weight-normal">Normal Text</p>
+
+  <hr>
+
+  <!-- Lead Paragraph -->
+  <h2>12. Lead Paragraph</h2>
+  <p class="lead">This paragraph stands out using lead class.</p>
+
+  <hr>
+
+  <!-- Text Alignment -->
+  <h2>13. Text Alignment</h2>
+  <p class="text-left">Left aligned</p>
+  <p class="text-center">Center aligned</p>
+  <p class="text-right">Right aligned</p>
+  <p class="text-justify">Justified text example.</p>
+
+  <hr>
+
+  <!-- Text Transform -->
+  <h2>14. Text Transform</h2>
+  <p class="text-lowercase">LOWERCASE TEXT</p>
+  <p class="text-uppercase">uppercase text</p>
+  <p class="text-capitalize">capitalize each word</p>
+
+  <hr>
+
+  <!-- Lists -->
+  <h2>15. Lists</h2>
+
+  <ul class="list-unstyled">
+    <li>Unstyled List Item</li>
+    <li>Another Item</li>
+  </ul>
+
+  <ul class="list-inline">
+    <li class="list-inline-item">Home</li>
+    <li class="list-inline-item">About</li>
+    <li class="list-inline-item">Contact</li>
+  </ul>
+
+</div>
+
+</body>
+</html>
